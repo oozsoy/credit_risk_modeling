@@ -1,0 +1,13 @@
+prefix=/Users/ogan/Desktop/Credit Risk/.conda
+exec_prefix=/Users/ogan/Desktop/Credit Risk/.conda
+libdir=/Users/ogan/Desktop/Credit Risk/.conda/lib
+sharedlibdir=/Users/ogan/Desktop/Credit Risk/.conda/lib
+includedir=/Users/ogan/Desktop/Credit Risk/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

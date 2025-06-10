@@ -1,0 +1,17 @@
+# Ignore all CSV data files
+*.csv
+
+# Or ignore specific folders
+raw_data/
+processed_data/
+model_data/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# VSCode config
+.vscode/
