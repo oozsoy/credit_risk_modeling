@@ -1,4 +1,4 @@
-# 🏦 Credit Risk Modeling with Lending Club Data
+# 🏦 Credit Risk Modeling
 
 This project showcases a practical end-to-end **credit risk modeling pipeline** using Lending Club data, with the ultimate goal of implementing a **complete Expected Loss (EL) model**. The current focus is on developing a robust and interpretable **Probability of Default (PD)** model using industry best practices.
 
@@ -13,9 +13,9 @@ The final goal is to build an end-to-end **Expected Loss (EL)** model:
 - 🔜 **Loss Given Default (LGD)**
 - 🔜 **Exposure at Default (EAD)**
 - 🔜 **Expected Loss (EL)** Calculation  
-  \[
-  \text{EL} = \text{PD} \times \text{LGD} \times \text{EAD}
-  \]
+  
+  $$ \textrm{EL} = \textrm{PD} \times \textrm{LGD} \times \textrm{EAD} $$
+  
 
 ---
 
