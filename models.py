@@ -61,10 +61,10 @@ class LogisticReg_with_pvalues:
     def coef_summary(self):
         """Return a DataFrame with coefficients and their p-values."""
         coef_df = pd.DataFrame({
-            'Coefficient': self.results.params,
-            'P-Value': self.results.pvalues
+            'coefficient': self.results.params,
+            'p_value': self.results.pvalues
         })
-        coef_df.index.name = 'Variable'
+        coef_df.index.name = 'variable_name'
         return coef_df
     
     def predict_proba(self, X):
